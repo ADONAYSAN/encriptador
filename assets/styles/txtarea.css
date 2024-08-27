@@ -1,0 +1,40 @@
+.txtarea {
+    margin: 1rem;
+    width: 81%;
+    max-width: 24rem;
+    height: 16rem;
+    padding: 1rem;
+    background-color: var(--color-cuatro);
+    color: #efefef;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+    /* overflow: scroll; */
+}
+.txtarea:hover {
+    transform: translate(5px, 5px);
+    box-shadow: 5px 2px 0  #0000008a ;
+  }
+  /* @keyframes blink {
+  20% {
+      border-color: transparent;
+    }
+  } */
+.txtarea:focus {
+    outline: none;
+    
+    filter: blur(0.1px);
+    color: #efefef;
+}
+
+.txtarea::placeholder {
+    color: #bdbdbd;
+}
+.card {
+    width: 190px;
+    height: 254px;
+    border-radius: 5px;
+    background: #e0e0e0;
+    /* box-shadow: 20px 20px 40px #bebebe,
+                  -20px -20px 60px #ffffff; */
+   }
