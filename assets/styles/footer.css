@@ -1,0 +1,24 @@
+.link-redes{
+    display: flex;
+    gap: 1rem;
+    
+}
+.link-redes a{
+    background-color: rgb(51, 173, 47);
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.3rem;
+    border-radius: 5px;
+}
+.link-redes a:hover{
+    background-color: rgba(51, 173, 47, 0.397);
+    box-shadow: 0 0 3px #008cff, 0 0 4px #008cff, 0 0 5px #008cff,
+    0 0 100px #008cff;
+}
+footer p{
+    color: white;
+}

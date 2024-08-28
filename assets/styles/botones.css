@@ -1,11 +1,8 @@
 .btn {
   padding: 10px;
   border-radius: 5px;
-  border: none;
   color: white;
   margin: 0.5rem;
-  cursor: pointer;
-  transition: border-color 0.25s;
   transform-style: flat;
   text-shadow: none;
   background: transparent;
